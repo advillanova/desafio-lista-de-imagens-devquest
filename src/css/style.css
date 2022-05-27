@@ -15,10 +15,15 @@ main {
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .pinturas .pintura {
     width: 335px;
     height: 431px;
     position: relative;
+}
+
+.pinturas .pintura:hover {
+    opacity: 0.8;
 }
 
 .pinturas .pintura img {
